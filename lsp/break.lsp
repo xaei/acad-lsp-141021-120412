@@ -1,0 +1,7 @@
+(defun c:bap (/ object breakpoint)
+(terpri)
+(setq object (entsel))
+(setq breakpoint (getpoint "pick breakpoint "))
+(command "break" object "f" breakpoint "@")
+(princ)
+)
