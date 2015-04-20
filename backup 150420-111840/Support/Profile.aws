@@ -1,0 +1,87 @@
+<!DOCTYPE Profile>
+<Profile>
+ <StorageRoot>
+  <Persistence>
+   <Palette Name="StatusBarPalette">
+    <FloatInfo Top="300.000000" Width="665.000000" Height="32.000000" Left="63.000000"/>
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <DockInfo Top="0.000000" DockTabOrder="1" Width="665.000000" Left="1904.000000" Height="32.000000" DockLocation="3" DockColumn="0"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+   </Palette>
+   <Palette Name="WorkflowPalette">
+    <FloatInfo Top="291.000000" Width="68.000000" Height="683.000000" Left="167.000000"/>
+    <State Collapsed="0" Visible="0" Docked="1"/>
+    <DockInfo Top="112.000000" DockTabOrder="0" Width="68.000000" Left="0.000000" Height="1066.000000" DockLocation="1" DockColumn="0"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+    <CurrentState Id="ID_TabHome" IsRightOrientation="1"/>
+   </Palette>
+   <Palette Name="LayerManager">
+    <FloatInfo Top="33.000000" Width="571.000000" Height="734.000000" Left="848.000000"/>
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <DockInfo Top="112.000000" DockTabOrder="0" Width="250.000000" Left="1186.000000" Height="383.000000" DockLocation="2" DockColumn="0"/>
+    <Resolution Width="3360.000000" Height="1200.000000"/>
+   </Palette>
+   <Palette Name="ACAD_OPM_PROPERTY_INSPECTOR_PALETTE">
+    <FloatInfo Top="71.000000" Width="650.000000" Height="736.000000" Left="196.000000"/>
+    <State Collapsed="0" Visible="1" Docked="1"/>
+    <DockInfo Top="32.000000" DockTabOrder="0" Width="250.000000" Left="1666.000000" Height="1145.000000" DockLocation="2" DockColumn="0"/>
+    <Resolution Width="3360.000000" Height="1200.000000"/>
+   </Palette>
+   <Palette Name="CommandWindow">
+    <FloatInfo Top="99.000000" Width="325.000000" Height="112.000000" Left="17.000000"/>
+    <State Collapsed="1" Visible="1" Docked="1"/>
+    <DockInfo Top="0.000000" DockTabOrder="0" Width="1916.000000" Left="0.000000" Height="32.000000" DockLocation="3" DockColumn="0"/>
+    <Resolution Width="3360.000000" Height="1200.000000"/>
+   </Palette>
+   <Palette Name="AcSubService">
+    <FloatInfo Top="593.000000" Width="279.000000" Height="285.000000" Left="790.000000"/>
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <Resolution Width="3360.000000" Height="1200.000000"/>
+   </Palette>
+   <Palette Name="Content">
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <FloatInfo Top="483.000000" Width="250.000000" Height="350.000000" Left="92.000000"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+   </Palette>
+   <Palette Name="AcHatchPatternLibrary">
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <FloatInfo Top="310.000000" Width="265.000000" Height="350.000000" Left="148.000000"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+   </Palette>
+   <Palette Name="ACAD_XREF_MANAGER">
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <FloatInfo Top="278.000000" Width="250.000000" Height="570.000000" Left="1035.000000"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+   </Palette>
+   <Palette Name="AcInfoBalloonPalette">
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <FloatInfo Top="10.000000" Width="340.000000" Left="0.000000" Height="150.000000"/>
+    <Resolution Width="3360.000000" Height="1200.000000"/>
+   </Palette>
+   <Palette Name="AcSmNavigatorPalette">
+    <State Collapsed="0" Visible="0" Docked="0"/>
+    <FloatInfo Top="1.000000" Width="260.000000" Height="570.000000" Left="1.000000"/>
+    <Resolution Width="1440.000000" Height="900.000000"/>
+   </Palette>
+  </Persistence>
+  <AcApData>
+   <HideableTaskDialogs>
+    <HideableTaskDialog title="References - Unresolved Reference Files" category="" id="Acad.UnresolvedReferenceFiles" application="" result="1002"/>
+    <HideableTaskDialog title="Unsupported Objects" category="" id="AutoCAD.UnsupportedObjects" application="" result="1001"/>
+    <HideableTaskDialog title="Open - Foreign DWG File" category="" id="DrawingOpen.ForeignDWGFile" application="" result="1001"/>
+    <HideableTaskDialog title="Multiline Text - Copy and Paste" category="" id="MText.WarningAboutPasting" application="" result="8"/>
+   </HideableTaskDialogs>
+  </AcApData>
+  <WorkflowPanelPersistence/>
+  <StartupInfo>
+   <Palette Bundle="AcWorkflow" Visible="0" ShowCommand="ToolSets"/>
+   <Palette Bundle="LayerManager" Visible="0" ShowCommand="LAYER"/>
+   <Palette Bundle="OPM" Visible="1" ShowCommand="PROPERTIES"/>
+   <Palette Bundle="CommandWindow" Visible="1" ShowCommand="CommandLine"/>
+   <Palette Bundle="AcSubService" Visible="1" ShowCommand="SubCenter"/>
+   <Palette Bundle="AcContent" Visible="0" ShowCommand="CONTENT"/>
+   <Palette Bundle="AcXref" Visible="0" ShowCommand="EXTERNALREFERENCES"/>
+   <Palette Bundle="AcSmNav" Visible="0" ShowCommand="SHEETSET"/>
+  </StartupInfo>
+ </StorageRoot>
+</Profile>

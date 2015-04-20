@@ -1,0 +1,1 @@
+/Volumes/xt/tmp/hatches/rvb_pa/STIP2.PAT
